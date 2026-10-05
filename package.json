@@ -1,0 +1,26 @@
+{
+  "name": "@169628/prac_utils_sample",
+  "version": "1.0.0",
+  "description": "GitHub 私有 npm 工具套件示範",
+  "type": "module",
+  "main": "./index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node --input-type=module -e \"import { showSuccess } from './index.js'; showSuccess();\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/169628/PRAC_utils_sample.git"
+  },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/169628/PRAC_utils_sample/issues"
+  },
+  "homepage": "https://github.com/169628/PRAC_utils_sample#readme"
+}
